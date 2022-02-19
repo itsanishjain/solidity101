@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Card from "../src/components/Card";
 
 export default function Home() {
   return (
@@ -10,11 +11,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h3 className="text-center bold text-4xl mt-2">solidity101</h3>
+        <h3 className="text-center bg-gradient-to-tr from-purple-400 to-purple-800 bold text-4xl mt-2">solidity101-LFG</h3>
       </main>
+
+      <Card name="WAGMI" />
+
     </div>
   );
 }
-
-
-
